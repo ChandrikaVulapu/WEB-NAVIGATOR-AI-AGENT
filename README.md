@@ -1,21 +1,9 @@
-# TITLE : WEB-NAVIGATOR-AI-AGENT
+# TITLE : WEB-PILOT-AI-AGENT
 
 
 **Problem Statement Chosen:**
 
-Web Navigator AI Agent – an AI system that understands natural language commands, autonomously browses real websites, and takes the user directly to the exact product or page they want, eliminating the need for manual searching and clicking.
-
-**Existing Approach : **
-
-Current search engines and AI assistants only give you a list of links or summaries.
-You still have to: Open each link manually , Apply filters yourself ,Compare results ,Finally land on the page you need.
-This process is slow, repetitive, and frustrating  most of the work is still on the user.
-
-**Proposed Approach : **
-
-	Our solution is a Web Navigator AI Agent that doesn’t just suggest or summarize — it actually takes action on the internet. The agent understands natural language, plans the task, and then browses real websites like a human to land the user directly on the exact product or page they need, removing the pain of endless clicks and filters , reduces the human efforts and saves the time .
-
-
+WebPilot AI Agent – an AI system that understands natural language commands, autonomously browses real websites, and takes the user directly to the exact product or page they want, eliminating the need for manual searching and clicking.
 
 
 **SUMMARY**
@@ -29,3 +17,24 @@ Our solution is the Web Navigator AI Agent — an assistant that goes beyond adv
 **Uniqueness and Impact**
 The uniqueness of our solution lies in its direct action: unlike existing AI systems that stop at giving links or summaries, our agent takes users straight into the live webpage they need — whether it’s the cheapest flight booking page, a specific product on an e-commerce site, or the latest relevant news article. This creates a seamless bridge from intent to action, reducing effort, saving time, and transforming user experience.
 In essence, our project redefines AI assistance: from being just an “information provider” to becoming an action-taker that navigates the web for you.
+
+                      **Technology Stack**
+ 
+**Backend & AI**
+
+Flask for coordination and control
+Ollama + LangChain for LLM processing
+Playwright for web automation
+SQLite for local storage
+
+**Frontend & APIs**
+
+HTML, JavaScript, Tailwind CSS
+Web Speech API for voice input
+Flask APIs for communication
+Text-to-Speech for confirmations
+
+
+
+
+
